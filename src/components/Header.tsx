@@ -13,8 +13,8 @@ const Header: FC = () => {
 				<div className='flex items-end'>
 					<Image src={avatar} alt='' className='w-24 lg:w-32 -ml-3.5' />
 					<div>
-						<h1 className='font-bold text-xl md:text-2xl lg:text-3xl'>Adrian Bieniek</h1>
-						<p className='uppercase text-xs font-bold md:text-sm lg:text-base'>Full stack web developer</p>
+						<h1 className='-mb-1 font-bold text-xl md:text-2xl lg:text-3xl'>Adrian Bieniek</h1>
+						<p className='mb-1 uppercase text-xs font-bold md:text-sm lg:text-base'>Full stack web developer</p>
 					</div>
 				</div>
 				<div className='mt-5 flex flex-col'>

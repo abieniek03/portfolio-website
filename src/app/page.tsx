@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import AboutSection from '@/components/Sections/AboutSection';
 import ContactSection from '@/components/Sections/ContactSection';
 import ProjectsSection from '@/components/Sections/Projects/ProjectsSection';
+import Footer from '@/components/Sections/Footer';
 
 const MainPage: FC = () => {
 	return (
@@ -15,6 +16,7 @@ const MainPage: FC = () => {
 				<AboutSection />
 				<ProjectsSection />
 				<ContactSection />
+				<Footer />
 			</div>
 		</>
 	);

@@ -34,6 +34,7 @@ const config: Config = {
 			animation: {
 				loading: 'loading 3s forwards',
 				'loading-bar': 'loading-bar 2.25s .5s forwards',
+				underline: 'loading-bar 0.5s forwards',
 			},
 		},
 	},

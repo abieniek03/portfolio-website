@@ -9,7 +9,8 @@ const ProjectsSection: FC = () => {
 		{
 			link: 'https://github.com/abieniek03/language-school',
 			title: 'Szkoła Języków Obcych',
-			description: 'Strona internetowa pozwalająca zapisać się do szkoły językowej przez formularz.',
+			description:
+				'Strona internetowa pozwalająca zapisać się do szkoły językowej przez formularz. Administrator ma możliwość wyświetlenia wszystkich uczniów i ich danych.',
 			technologies: ['Vue', 'Node.js', 'Bootstrap'],
 		},
 		{
@@ -28,13 +29,13 @@ const ProjectsSection: FC = () => {
 		{
 			link: 'https://github.com/abieniek03/barbershop-portal',
 			title: 'Barbershop Portal',
-			description: 'Portal pozwalający zapisać się na wizytę do barbera.',
+			description: ' Portal pozwalający zapisać się na wizytę do barbera. Barber ma widok kalendarza z wizytami.',
 			technologies: ['Next.js', 'tailwindcss'],
 		},
 	];
 
 	return (
-		<section>
+		<section id='projekty'>
 			<SectionTitle label='Projekty' />
 			<div className='mt-4'>
 				{projects.map((el, index) => (
