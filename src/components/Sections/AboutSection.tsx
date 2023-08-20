@@ -36,14 +36,15 @@ const AboutSection: FC = () => {
 				<span className='font-bold'>programowanie webowe.</span>
 			</p>
 			<p>
-				Do tej pory interesowałem się tylko <span className='font-bold'>frontendem.</span> Chcąc tworzyć bardziej
-				sensowne i zaawansowane strony i aplikacje internetowe postanowiłem nauczyć się{' '}
-				<span className='font-bold'>technologi backendowych:</span>Node.js oraz baz danych. Wykonywałem projekty w
-				różnych technologiach:{' '}
-				<span className='font-medium italic'>
-					Vue.js, Node.js (Express), React(Next.js), MySQL, PostgreSQL, MongoDB.
-				</span>{' '}
-				Używałem też bibliotek służących do stylowania wyglądu międzyinnymi
+				Poznawałem kolejne technologie frontendowe - <span className='font-medium italic'>Vue.</span> Chcąc tworzyć
+				bardziej zaawansowane projekty postanowiłem nauczyć się backendu -{' '}
+				<span className='font-medium italic'>Node.js.</span> W klasie maturalnej miałem okazję uczestniczyć
+				w&nbsp;zajęciach w ramach projektu <span className='font-bold'>“Czas zawodowców BIS”</span> na{' '}
+				<span className='font-bold'>Politechnice Poznańskiej,</span> gdzie prezentowano aplikację stworzoną przy użyciu{' '}
+				<span className='font-medium italic'>React.</span> Znając już podstawy{' '}
+				<span className='font-medium italic'>Vue,</span> zainteresowałem się również tą technologią i postanowiłem
+				zacząć się w niej rozwijać. Zaznajomiłem się również z <span className='font-medium italic'>Next.js.</span> W
+				swoich projektach korzystam też narzędzi służących do stylowania wyglądu międzyinnymi
 				<span className='font-medium italic'> Bootstrap, TailwindCSS, styled-components.</span> Cały czas staram się
 				rozwijać i chcę nabierać doświadczenia.
 			</p>
